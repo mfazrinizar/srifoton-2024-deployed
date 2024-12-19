@@ -18,6 +18,7 @@ interface SingleEntry {
   name: string;
   proof?: string;
   is_verified: boolean;
+  email: string;
   payment_method: string;
   ticket_number?: string;
   date: Timestamp;
@@ -45,6 +46,7 @@ const WorkshopCollectionTable: React.FC = () => {
     name: entry.name,
     proof: entry.proof,
     is_verified: entry.is_verified,
+    email: entry.email,
     payment_method: entry.payment_method,
     ticket_number: entry.ticket_number,
     date: entry.date
