@@ -8,7 +8,7 @@ const useClose = (isClose: boolean) => {
 
   useEffect(() => {
     if (isClose && !hasShownToast.current) {
-      toast.error("Kompetisi telah ditutup. Selamat Berjuang!!!");
+      toast.error("Kompetisi telah ditutup. Selamat Berjuang!");
       hasShownToast.current = true;
       router.push("/competition");
     } else {

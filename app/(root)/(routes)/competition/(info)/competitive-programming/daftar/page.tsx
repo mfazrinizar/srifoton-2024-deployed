@@ -4,7 +4,7 @@ import CompetitionRegistration from "@/components/Root/Competition/CompetitionRe
 import useClose from "@/hooks/useClose";
 
 export default function CPRegistration() {
-  useClose(true);
+  // useClose(true);
   return (
     <>
       <CompetitionRegistration

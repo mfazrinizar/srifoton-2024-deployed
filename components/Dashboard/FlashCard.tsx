@@ -273,7 +273,16 @@ export default function FlashCard({
                       }
                     }}
                   >
-                    {loading ? "Loading Ticket..." : "Download Ticket"}
+                    <a
+                      href={
+                        url
+                          ? url
+                          : "https://srifoton.hmifunsri.com/dashboard/activities"
+                      }
+                      className="w-full"
+                    >
+                      {loading ? "Loading Ticket..." : "Download Ticket"}
+                    </a>
                   </Button>
                 )}
               </BlobProvider>
@@ -300,7 +309,16 @@ export default function FlashCard({
                       }
                     }}
                   >
-                    {loading ? "Loading Ticket..." : "Download Ticket"}
+                    <a
+                      href={
+                        url
+                          ? url
+                          : "https://srifoton.hmifunsri.com/dashboard/activities"
+                      }
+                      className="w-full"
+                    >
+                      {loading ? "Loading Ticket..." : "Download Ticket"}
+                    </a>
                   </Button>
                 )}
               </BlobProvider>

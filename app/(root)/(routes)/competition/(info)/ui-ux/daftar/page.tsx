@@ -1,10 +1,10 @@
 "use client";
 
 import CompetitionRegistration from "@/components/Root/Competition/CompetitionRegistration";
-import useClose from "@/hooks/useClose";
+// import useClose from "@/hooks/useClose";
 
 export default function UIUXtRegistration() {
-  useClose(true);
+  // useClose(true);
   return (
     <>
       <CompetitionRegistration

@@ -5,12 +5,12 @@ import { QNA, SpeechBubble } from "@/components/Root/QNA";
 import { Timeline, TimelineCard } from "@/components/Root/Timeline";
 import React from "react";
 import ContactPerson from "@/components/Root/ContactPerson";
-import useClose from "@/hooks/useClose";
+// import useClose from "@/hooks/useClose";
 
 type Props = {};
 
 export default function WebDevelopmentInfo({}: Props) {
-  useClose(true);
+  // useClose(true);
   return (
     <>
       <InfoHero
